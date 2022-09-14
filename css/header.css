@@ -1,0 +1,17 @@
+.container{
+    max-width: 950px;
+   
+}
+.header__logo{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#header-img{
+    width: 100px;
+}
+#nav-bar{
+    display: flex; 
+}
