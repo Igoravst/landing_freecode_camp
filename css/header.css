@@ -1,6 +1,5 @@
-.container{
-    max-width: 950px;
-   
+#header{
+    margin-top: 15px;
 }
 .header__logo{
     width: 320px;
@@ -15,3 +14,9 @@
 #nav-bar{
     display: flex; 
 }
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
