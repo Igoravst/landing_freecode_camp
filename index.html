@@ -20,82 +20,68 @@
                 <a class="nav-link" href="#why-it">Чому це важливо</a>
                 <a class="nav-link" href="#donate-us">Зробити внесок</a>
             </nav>
+        </div>
     </header>
     </div>
     <main>
+        <div class="container">
+            <section class="together">
+                <h2>Разом до перемоги!</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Залиште свою пошту" required>
+                    <input id="submit" type="submit" value="Відправити" class="btn">
+                </form>
 
-        <section class="together container">
-            <h2>Разом до перемоги!!!</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-                <input type="email" name="email" id="email" placeholder="Залиште свою пошту" required>
-                <input id="submit" type="submit" value="Відправити" class="btn">
-            </form>
-
-        </section>
-        <section id="why-we">
-            <div class="container">
+            </section>
+            <section id="why-we">
                 <div class="why-we__item">
-                    <div class="why-we__item-img">
-                        <img src="img/clock .svg" alt="clock">
-                    </div>
-                    <div class="why-we__item-txt">
-                    </div>
+                    <img class="why-we__item-image" src="img/clock .svg" alt="clock">
                     <p>Ми допомогаємо с першого дня війни та щотижня публікуємо детальні звіти</p>
-
                 </div>
                 <div class="why-we__item">
-                    <div class="why-we__item-img">
-                        <img src="img/diagram.svg" alt="diagram image">
-                    </div>
+                    <img class="why-we__item-image" src="img/diagram.svg" alt="diagram image">
                     <p>Тільки за квітень наш фонд роздав продуктові набори більш ніж 1000 родин з постраждалих
                         районів</p>
-
                 </div>
                 <div class="why-we__item">
-                    <div class="why-we__item-img">
-                        <img src="img/check.svg" alt="check image">
-                    </div>
+                    <img class="why-we__item-image" src="img/check.svg" alt="check image">
                     <p>Маємо офіційно зареестрований фонд - всю нашу діяльність регулярно перевіряє держава</p>
-
                 </div>
-            </div>
-        </section>
-        <section id="why-it">
-            <div class="container">
+            </section>
+            <section id="why-it">
                 <video id="video" src="img/videoplayback.mp4" controls></video>
-            </div>
-        </section>
-        <section id="donate-us">
-            <div class="container">
+            </section>
+            <section id="donate-us">
                 <h2>Зробити внесок</h2>
                 <div class="donate__cards">
-                    <h3>200грн</h3>
-                    <p>Дозволить нам купити набір продуктів на одну родину</p>
-                    <button class="btn">Задонатити</button>
+                    <div class="donate__cards-item">
+                        <h3>200грн</h3>
+                        <p>Дозволить нам купити набір продуктів на одну родину</p>
+                        <a class="btn" href="#"> Задонатити</a> 
+                    </div>
+                    <div class="donate__cards-item">
+                        <h3>500грн</h3>
+                        <p>Дозволить нам купити набір продуктів на 2-3 родини</p>
+                        <a class="btn" href="#"> Задонатити</a> 
+                    </div>
+                    <div class="donate__cards-item">
+                        <h3>1000грн</h3>
+                        <p>Дозволить нам купити набір продуктів на 5+ родин</p>
+                         <a class="btn" href="#"> Задонатити</a> 
+                    </div>
                 </div>
-                <div class="donate__cards">
-                    <h3>500грн</h3>
-                    <p>Дозволить нам купити набір продуктів на 2-3 родини</p>
-                    <button class="btn">Задонатити</button>
-                </div>
-                <div class="donate__cards">
-                    <h3>1000грн</h3>
-                    <p>Дозволить нам купити набір продуктів на 5+ родин</p>
-                    <button class="btn">Задонатити</button>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
     </main>
-    <footer>
-        <div class="container">
-            <div class="footer__nav">
+    <footer id="footer">
+        <!-- <div class="container"> -->
+            <nav class="footer__nav">
                 <a class="footer__nav-link" href="#">Умови користування</a>
                 <a class="footer__nav-link" href="#">Політика конфедійційності</a>
                 <a class="footer__nav-link" href="#">Контакти</a>
-            </div>
-            <span>Copyright 2022, Fuck russian warship</span>
-        </div>
+            </nav>
+            <p>Copyright 2022, Fuck russian warship</p>
+        <!-- </div> -->
     </footer>
 
 </body>

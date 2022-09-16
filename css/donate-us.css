@@ -1,0 +1,56 @@
+#donate-us h2 {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.donate__cards-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+    border: 2px solid var(--text-color);
+    padding: 10px;
+}
+
+.donate__cards-item>h3,
+.donate__cards-item>p,
+.donate__cards-item>a {
+    margin: 15px auto;
+    font-size: 22px;
+}
+
+.donate__cards-item > .btn {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    max-width: 170px;
+    border: 0;
+    border-radius: 3px;
+    background-color: var(--button-color);
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.donate__cards-item > .btn:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .donate__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    .donate__cards-item {
+        margin-left: 5px;
+
+    }
+}
+}

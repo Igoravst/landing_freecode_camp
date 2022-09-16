@@ -1,3 +1,16 @@
-#why-it > container {
-    
+#why-it {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+
+#why-it > video {
+    width: 310px;
+}
+
+@media (min-width: 600px) {
+    #why-it > video {
+        width: 570px;
+    }
 }

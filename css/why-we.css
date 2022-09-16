@@ -1,24 +1,33 @@
-
-
-.why-we__item-img>img {
-    width: 20vw; 
-    margin: auto; 
-}
-
 .why-we__item {
-    margin: 30px auto;
+    margin: 30px 20px;
+    display: block;
+    justify-content: center;
 }
 
-.why-we__item > p {
+.why-we__item-image {
+    width: 16vw; 
+    margin:auto
+}
+
+
+
+.why-we__item  p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 5vw
+    
+
 }
 
 @media (min-width: 600px) {
 
     .why-we__item{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+    margin: 20px 30px;
     }
 }
