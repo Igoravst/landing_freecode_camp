@@ -9,8 +9,6 @@
     margin:auto
 }
 
-
-
 .why-we__item  p {
     font-size: 18px;
     font-weight: 700;
@@ -27,7 +25,9 @@
 
     .why-we__item{
     display: flex;
-
     margin: 20px 30px;
+    }
+    .why-we__item-image{
+        width: 100px;
     }
 }
